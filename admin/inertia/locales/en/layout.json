@@ -1,0 +1,32 @@
+{
+  "backToHome": "Back to Home",
+  "commandCenter": "Command Center",
+  "commandCenterVersion": "Project NOMAD™ Command Center v{{version}}",
+  "debugInfo": "Debug Info",
+  "closeSidebar": "Close sidebar",
+  "sidebar": {
+    "settingsTitle": "Settings",
+    "documentationTitle": "Documentation",
+    "nav": {
+      "supplyDepot": "Supply Depot",
+      "benchmark": "Benchmark",
+      "contentExplorer": "Content Explorer",
+      "contentManager": "Content Manager",
+      "creatorPacks": "Creator Packs",
+      "mapsManager": "Maps Manager",
+      "serviceLogsMetrics": "Service Logs & Metrics",
+      "checkForUpdates": "Check for Updates",
+      "system": "System",
+      "advanced": "Advanced",
+      "apiReference": "API Reference",
+      "supportProject": "Support the Project",
+      "legalNotices": "Legal Notices"
+    }
+  },
+  "theme": {
+    "switchToDayOps": "Switch to Day Ops",
+    "switchToNightOps": "Switch to Night Ops",
+    "dayOps": "Day Ops",
+    "nightOps": "Night Ops"
+  }
+}
