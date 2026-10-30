@@ -1,0 +1,145 @@
+{
+  "pageTitle": "Assistente de Configuração Rápida",
+  "noInternetTitle": "Sem conexão com a internet",
+  "noInternetMessage": "Você precisa de uma conexão com a internet para continuar. Conecte-se e tente novamente.",
+  "steps": {
+    "apps": "Apps",
+    "maps": "Mapas",
+    "content": "Conteúdo",
+    "creatorPacks": "Pacotes de Criador",
+    "ai": "IA",
+    "review": "Revisão"
+  },
+  "capabilities": {
+    "information": {
+      "name": "Biblioteca de Informação",
+      "description": "Acesso offline à Wikipedia, referências médicas, guias práticos e enciclopédias",
+      "features": [
+        "Wikipedia completa offline",
+        "Referências médicas e guias de primeiros socorros",
+        "Guias de conserto e tutoriais do tipo faça você mesmo",
+        "Livros e literatura do Projeto Gutenberg"
+      ]
+    },
+    "education": {
+      "name": "Plataforma de Educação",
+      "description": "Plataforma de aprendizado interativa com cursos em vídeo e exercícios",
+      "features": [
+        "Cursos de matemática e ciências do Khan Academy",
+        "Conteúdo da educação básica (K-12)",
+        "Exercícios interativos e quizzes",
+        "Acompanhamento do progresso de quem estuda"
+      ]
+    },
+    "ai": {
+      "description": "Chat de IA local que roda inteiramente no seu hardware, sem precisar de internet",
+      "features": [
+        "Conversas privadas que nunca saem do seu dispositivo",
+        "Não precisa de internet depois da configuração",
+        "Faça perguntas, peça ajuda para escrever e gere ideias",
+        "Roda no seu próprio hardware, com modelos de IA locais"
+      ]
+    }
+  },
+  "step1": {
+    "title": "O que você quer que o NOMAD faça?",
+    "subtitle": "Selecione os recursos de que você precisa. Você pode adicionar mais depois.",
+    "allInstalled": "Todos os recursos disponíveis já estão instalados!",
+    "manageApps": "Gerenciar Apps",
+    "coreCapabilities": "Recursos Principais",
+    "installedBadge": "Instalado",
+    "poweredBy": "Com tecnologia de {{tech}}",
+    "lookingForMore": "Procurando mais apps?",
+    "lookingForMoreDesc": "Notas, ferramentas de dados e o catálogo completo de apps adicionais estão disponíveis a qualquer momento no Depósito de Suprimentos.",
+    "openSupplyDepot": "Abrir Depósito de Suprimentos",
+    "useRemoteOllama": "Usar uma instância remota do Ollama"
+  },
+  "step2": {
+    "title": "Escolha as Regiões de Mapa",
+    "subtitle": "Selecione as coleções de regiões de mapa para baixar e usar offline. Você pode baixar mais regiões depois.",
+    "mapsManagerHint": "Só precisa de um país específico ou quer o mapa do mundo inteiro? Países individuais e o mapa global completo podem ser instalados a qualquer momento pelo",
+    "mapsManagerLink": "Gerenciador de Mapas",
+    "noCollections": "No momento não há coleções de mapas disponíveis."
+  },
+  "step3": {
+    "title": "Escolha o Conteúdo",
+    "subtitleWithInfo": "Selecione as categorias de conteúdo para o conhecimento offline.",
+    "subtitleNoInfo": "Configure o conteúdo para os recursos selecionados.",
+    "additionalContent": "Conteúdo Adicional",
+    "additionalContentDesc": "Coleções selecionadas para consulta offline",
+    "noContentCapabilities": "Nenhum recurso baseado em conteúdo foi selecionado. Você pode pular esta etapa ou voltar para selecionar recursos que exigem conteúdo."
+  },
+  "creatorPacksStep": {
+    "title": "Pacotes de Criador Disponíveis",
+    "subtitle": "Coleções de vídeos de criadores, baixadas para assistir offline no Kiwix.",
+    "noneAvailable": "No momento não há pacotes de criador disponíveis."
+  },
+  "aiStep": {
+    "title": "Configurar {{name}}",
+    "subtitle": "Escolha os modelos para baixar e defina como {{name}} lida com conteúdo novo.",
+    "modelsHeading": "Modelos de IA",
+    "modelsSubheading": "Selecione os modelos para baixar e usar IA offline",
+    "remoteSelectedTitle": "Ollama remoto selecionado",
+    "remoteSelectedMessage": "Os modelos são gerenciados na máquina remota. Depois da configuração, você pode adicionar modelos em Configurações > Assistente de IA. Observe que isso só funciona com o Ollama, e não com o LM Studio ou outros softwares que usam a API da OpenAI.",
+    "noModels": "No momento não há modelos de IA recomendados disponíveis.",
+    "size": "Tamanho: {{size}}",
+    "supportsImages": "Aceita imagens",
+    "autoIndexTitle": "Indexar automaticamente o conteúdo novo para {{name}}?",
+    "autoIndexDesc": "Quando você adicionar novos ZIMs, documentos ou conteúdo curado, {{name}} deve indexá-los automaticamente para poder pesquisá-los ao responder às suas perguntas?",
+    "yesAlways": "Sim, sempre",
+    "askMeFirst": "Perguntar antes",
+    "autoIndexHint": "Você pode mudar isso a qualquer momento no painel Base de Conhecimento, dentro do Chat de IA."
+  },
+  "review": {
+    "title": "Revise Suas Seleções",
+    "subtitle": "Confira suas escolhas antes de iniciar a configuração.",
+    "noneTitle": "Nenhuma seleção feita",
+    "noneMessage": "Você não selecionou nada para instalar ou baixar. Pode voltar para fazer seleções ou ir para a página inicial.",
+    "capabilitiesToInstall": "Recursos a Instalar",
+    "mapCollectionsToDownload": "Coleções de Mapas para Baixar ({{count}})",
+    "creatorPacksToInstall": "Pacotes de Criador para Instalar ({{count}})",
+    "contentCategories": "Categorias de Conteúdo ({{count}})",
+    "filesCount_one": "({{count}} arquivo)",
+    "filesCount_other": "({{count}} arquivos)",
+    "wikipedia": "Wikipedia",
+    "noDownload": "Sem download",
+    "aiModelsToDownload": "Modelos de IA para Baixar ({{count}})",
+    "autoIndexSetting": "Configuração de Indexação Automática",
+    "autoIndexAlways": "O conteúdo novo será <bold>indexado automaticamente</bold> assim que chegar, para que {{name}} possa pesquisá-lo.",
+    "autoIndexManual": "O conteúdo novo <bold>aguardará a sua autorização</bold> no painel Base de Conhecimento antes que {{name}} o indexe.",
+    "readyTitle": "Pronto para Começar",
+    "readyMessage": "Clique em 'Concluir Configuração' para começar a instalar os apps e baixar o conteúdo. Isso pode levar algum tempo, dependendo da sua conexão e do tamanho dos downloads."
+  },
+  "footer": {
+    "back": "Voltar",
+    "cancelGoHome": "Cancelar e ir para o Início",
+    "next": "Avançar",
+    "completeSetup": "Concluir Configuração",
+    "capability_one": "{{count}} recurso",
+    "capability_other": "{{count}} recursos",
+    "mapRegion_one": "{{count}} região de mapa",
+    "mapRegion_other": "{{count}} regiões de mapa",
+    "contentCategory_one": "{{count}} categoria de conteúdo",
+    "contentCategory_other": "{{count}} categorias de conteúdo",
+    "creatorPack_one": "{{count}} pacote de criador",
+    "creatorPack_other": "{{count}} pacotes de criador",
+    "aiModelSelected_one": "{{count}} modelo de IA selecionado",
+    "aiModelSelected_other": "{{count}} modelos de IA selecionados"
+  },
+  "confirmDisableAi": "Desativar a IA vai descartar seus modelos escolhidos, a política de indexação e a configuração do Ollama remoto. Continuar?",
+  "notifications": {
+    "mustBeOnline": "Você precisa estar conectado à internet para concluir a configuração.",
+    "completed": "Assistente de configuração concluído! Suas seleções estão sendo processadas.",
+    "error": "Ocorreu um erro durante a configuração. Alguns itens podem não ter sido processados.",
+    "remoteOllamaFailed": "Falha ao configurar o Ollama remoto."
+  },
+  "complete": {
+    "pageTitle": "Assistente de Configuração Rápida Concluído",
+    "noInternetTitle": "Sem conexão com a internet",
+    "noInternetMessage": "Parece que você não está conectado à internet. A instalação de apps e o download de conteúdo exigem uma conexão.",
+    "activityHeading": "Atividade de Instalação dos Apps",
+    "runningInBackgroundTitle": "Executando em segundo plano",
+    "runningInBackgroundMessage": "Pode sair desta página a qualquer momento: as instalações e os downloads continuarão em segundo plano! Observe que a Biblioteca de Informação (se instalada) pode ficar indisponível até que todos os downloads iniciais sejam concluídos.",
+    "goToHome": "Ir para o Início"
+  }
+}

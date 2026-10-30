@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Command Center",
+  "maps": {
+    "label": "Maps",
+    "description": "View offline maps"
+  },
+  "drugReference": {
+    "label": "Drug Reference",
+    "description": "Offline FDA drug labels. Search by drug name or by symptom"
+  },
+  "systemItems": {
+    "easySetup": {
+      "label": "Easy Setup",
+      "description": "Not sure where to start? Use the setup wizard to quickly configure your NOMAD!"
+    },
+    "supplyDepot": {
+      "label": "Supply Depot",
+      "description": "Browse and install curated apps, or add your own Docker container"
+    },
+    "docs": {
+      "label": "Docs",
+      "description": "Read Project NOMAD manuals and guides"
+    },
+    "settings": {
+      "label": "Settings",
+      "description": "Configure your NOMAD settings"
+    }
+  },
+  "accessApplication": "Access the {{name}} application",
+  "opensInNewTab": "Opens in a new tab",
+  "failedToRemoveLink": "Failed to remove this link.",
+  "updateAvailableTitle": "An update is available for Project NOMAD!",
+  "goToSettings": "Go to Settings",
+  "benchmarkRerunTitle": "Your benchmark can be re-scored with Score v2",
+  "benchmarkRerunMessage": "We've upgraded the benchmark scoring system. Re-run your benchmark to get an updated Score v2 result on the community leaderboard.",
+  "rerunBenchmark": "Re-run benchmark",
+  "startHere": "Start here!",
+  "userAddedShortcutHint": "A shortcut you added. NOMAD does not manage this.",
+  "poweredBy": "Powered by {{name}}",
+  "remove": "Remove",
+  "cancel": "Cancel",
+  "editThisLink": "Edit this link",
+  "removeThisLink": "Remove this link",
+  "addALink": "Add a Link",
+  "addALinkDesc": "A shortcut to something else on your network"
+}
