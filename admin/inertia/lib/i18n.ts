@@ -7,6 +7,8 @@ import easySetupEn from '~/locales/en/easySetup.json'
 import easySetupPtBR from '~/locales/pt-BR/easySetup.json'
 import homeEn from '~/locales/en/home.json'
 import homePtBR from '~/locales/pt-BR/home.json'
+import settingsEn from '~/locales/en/settings.json'
+import settingsPtBR from '~/locales/pt-BR/settings.json'
 
 const STORAGE_KEY = 'nomad-lang'
 
@@ -22,12 +24,12 @@ function detectLanguage(): string {
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { layout: layoutEn, easySetup: easySetupEn, home: homeEn },
-    'pt-BR': { layout: layoutPtBR, easySetup: easySetupPtBR, home: homePtBR },
+    en: { layout: layoutEn, easySetup: easySetupEn, home: homeEn, settings: settingsEn },
+    'pt-BR': { layout: layoutPtBR, easySetup: easySetupPtBR, home: homePtBR, settings: settingsPtBR },
   },
   lng: detectLanguage(),
   fallbackLng: 'en',
-  ns: ['layout', 'easySetup', 'home'],
+  ns: ['layout', 'easySetup', 'home', 'settings'],
   defaultNS: 'layout',
   interpolation: { escapeValue: false },
 })
